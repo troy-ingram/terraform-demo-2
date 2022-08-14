@@ -1,7 +1,7 @@
 resource "aws_security_group" "web_sg" {
   name        = "web_sg"
   description = "Allow all inbound HTTP traffic"
-  vpc_id      = "vpc-02972d1668fda9f14"
+  vpc_id      = "vpc-01ce4055ad22caa3b"
 
   ingress {
     from_port   = 80
