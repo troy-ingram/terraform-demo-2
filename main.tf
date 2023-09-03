@@ -1,3 +1,8 @@
+provider "aws" {
+ profile = "awsprofile"
+}
+
+
 module "ec2" {
   source = "./ec2"
 
